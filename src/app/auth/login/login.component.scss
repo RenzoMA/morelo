@@ -1,0 +1,26 @@
+:host {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-top: 100px;
+}
+.form-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container {
+  max-width: 200px;
+  background-color: #673ab7;
+  margin-bottom: 10px;
+}
+
+.img-logo {
+  width:100%;
+}
