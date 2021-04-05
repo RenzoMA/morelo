@@ -1,1 +1,31 @@
-<p>main works!</p>
+<p>{{ userName }}</p>
+<p>Para la realización de la predicción por favor importar el archivo</p>
+<div class="actions">
+  <div>
+    <button mat-raised-button color="primary" class="import-button">
+      Importar Excel
+    </button>
+    <mat-form-field>
+      <input matInput disabled value="" />
+    </mat-form-field>
+  </div>
+
+  <button mat-raised-button color="primary">Iniciar la predicción</button>
+</div>
+<div>
+  <ngx-datatable
+    class="material"
+    [rows]="rows"
+    [columns]="columns"
+    [columnMode]="ColumnMode.force"
+    [headerHeight]="50"
+    [footerHeight]="50"
+    rowHeight="auto"
+  >
+  </ngx-datatable>
+</div>
+<div class="download-container">
+  <button class="download-button" mat-raised-button color="primary">
+    Descargar
+  </button>
+</div>

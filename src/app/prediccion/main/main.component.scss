@@ -1,0 +1,25 @@
+:host {
+  padding: 40px;
+  display: block;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.import-button {
+  margin-right: 30px;
+}
+
+
+.download-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.download-button {
+  margin-top: 10px;
+}

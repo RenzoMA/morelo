@@ -11,6 +11,10 @@ export class SessionService {
     return user ? true : false;
   }
 
+  getUser() {
+    return JSON.parse(localStorage.getItem("morelo_user"));
+  }
+
   logIn(user: string, password: string) {
     localStorage.setItem("morelo_user", JSON.stringify(user));
   }
